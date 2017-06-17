@@ -1,0 +1,16 @@
+{
+  "name": "pipeline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "build": "echo \"Buidling...\"" 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://tfs.eplan.lan:8080/tfs/DefaultCollection/CUS%20GROM%20Team/_git/RSP.Tests"
+  },
+  "author": "",
+  "license": "ISC"
+}
