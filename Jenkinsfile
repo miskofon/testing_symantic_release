@@ -7,7 +7,7 @@ pipeline {
         stage('Build') {
             steps {
                 bat 'echo "Abc" > data'
-                bat 'git commit'
+                bat 'git commit --author="RSP publisher"'
                 bat 'git push'
             }
         }
