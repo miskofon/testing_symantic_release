@@ -5,8 +5,9 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'make' 
-                archiveArtifacts artifacts: '**/target/*.jar', fingerprint: true 
+                bat 'echo "Abc" > data'
+                bat 'git commit'
+                bat 'git push'
             }
         }
     }
