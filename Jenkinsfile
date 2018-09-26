@@ -1,5 +1,8 @@
 pipeline {
-    agent any
+        agent {
+         label 'PowerEng'
+    }
+
     stages {
         stage('Build') {
             steps {
