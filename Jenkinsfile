@@ -8,7 +8,7 @@ pipeline {
             steps {
                 bat 'echo "Abc" > data'
                 bat 'git commit -m "Version update" -a'
-                bat 'git push'
+                bat 'git push "origin" master:master'
             }
         }
     }
