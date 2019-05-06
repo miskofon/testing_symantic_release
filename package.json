@@ -53,6 +53,6 @@
     "url": "https://github.com/miskofon/testing_symantic_release.git"
   },
   "publishConfig": {
-    "registry": "http://your-host:8081/repository/npm-private/"
+    "registry": "http://localhost:8088/repository/docker-private/"
   }
 }
